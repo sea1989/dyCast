@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+}
+.content {
+  padding: 0 140px;
+}
+.main h2 {
+  font-size: 42px;
+  font-weight: 600;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+  min-height: 2000px;
+  height: 1778px;
+  /* background: #3a86ff; */
+  color: #ffffff;
+}
+
+.main__top {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 86px;
+}
+.top__laptop {
+  max-width: 720px;
+  width: 100%;
+  max-height: 414px;
+  height: 100%;
+  position: relative;
+  top: -40px;
+  left: 102px;
+}
+.top__title-truly {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.title-truly__article {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 100%;
+}
+.title-truly__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.main__main-suggest {
+  margin-top: 101px;
+  display: flex;
+  justify-content: space-between;
+  padding: 46.71px 49.64px 47.51px 43.69px;
+  border: 1px solid #e7e7e7;
+  border-radius: 4px;
+  gap: 146px;
+}
+.main-suggest__suggest-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32px;
+  max-width: 470px;
+}
+.main-suggest__advanteges {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 42px;
+  max-width: 460px;
+}
+.advanteges {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+.suggest-text__advanteges {
+  line-height: 22px;
+}
+.white-fox {
+  display: block;
+}
+.authorize-white {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.blue-fox {
+  display: none;
+}
+
+.button-standart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 10.65px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  height: 40px;
+}
+
+.button-black {
+  background: #222222 !important;
+}
+.button-white {
+  background: #ffffff !important;
+  color: #222222 !important;
+}
+.main__community {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 78px;
+  margin-top: 88px;
+}
+.main__community p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.community-left {
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.community__title {
+  margin-bottom: 42px;
+}
+.community__advanteges {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.community-right {
+  font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+align-self: center;
+ max-width: 421px;
+}
+.community__text {
+  max-width: 421px;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+

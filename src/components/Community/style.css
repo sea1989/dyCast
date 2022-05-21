@@ -1,24 +1,34 @@
-.community {
-    margin: 0 140px 0;
-    padding: 44px 44px 52px;
-
-    gap: 30px;
-
-    display: flex;
-    flex-direction: column;
+.main__community {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 78px;
+  margin-top: 88px;
 }
 
-.community h3 {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 42px;
+.community-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
-
-.community p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-
-    max-width: 421px;
+.community__title {
+  margin-bottom: 42px;
+}
+.community__advanteges {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.community-right {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  align-self: center;
+  max-width: 421px;
+}
+.community__text {
+  max-width: 421px;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
 }

@@ -1,4 +1,4 @@
-.main {
+/* .main {
     background-color: black;
     background-image: url("../../assets/back.jpg");
     width: 100%;
@@ -9,4 +9,34 @@
     background-position: center;
 
     color: #E7E7E7;
+} */
+
+
+a,a:visited {
+    text-decoration: none;
+    color: inherit;
+    border: none;
 }
+* {
+    margin: 0;
+  }
+  .content {
+    padding: 0 10%;
+  }
+  .main h2 {
+    font-size: 42px;
+    font-weight: 600;
+  }
+  .main {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* width: 100%; */
+    min-height: 2000px;
+    height: 1778px;
+    /* background: #3a86ff; */
+    color: #ffffff;
+  }
+  
